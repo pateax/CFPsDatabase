@@ -13,7 +13,7 @@ public class A214273122_Q3 implements ActionListener {
 	public A214273122_Q3() {
 		
 		JFrame frame = new JFrame();
-		frame.setSize(500, 700);
+		frame.setSize(500, 650);
 		Panel panel = new Panel();
 		frame.add(panel);
 		panel.setLayout(new FlowLayout());
