@@ -83,7 +83,7 @@ public class A214273122_Q1 implements ActionListener {
 		panel.setBackground(Color.LIGHT_GRAY);
 		panel.setBounds(100, 100, 200, 200);
 		frame.setTitle("214273122_Q1");
-		JLabel ax = new JLabel("Axitaben Patel, 214273122");
+		JLabel ax = new JLabel("Insert a new CFP:");
 		ax.setBorder(border);
 		panel.add(ax);
 		
