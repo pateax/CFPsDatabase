@@ -2,10 +2,8 @@
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
-
 import java.awt.*;
 import java.awt.event.*;
-
 
 public class A214273122_Q1 implements ActionListener {
 	
@@ -31,33 +29,7 @@ public class A214273122_Q1 implements ActionListener {
 	JLabel Publisher = new JLabel("Publisher:");
 	JTextField PN = new JTextField(10);
 	
-	//Activities
-	JLabel Activity = new JLabel("Activity Name");
-	JTextField AN = new JTextField(10);
-	JLabel ADate = new JLabel("Activity Date");
-	JTextField AD = new JTextField(10);
-	
-	
-	//Topics
-	JLabel Topic = new JLabel("Topic");
-	JTextField Tp = new JTextField(10);
-	JLabel Area = new JLabel("Area");
-	JTextField Ar = new JTextField(10);
-	
-	//People
-	JLabel PName = new JLabel("Person Name");
-	JTextField Nm = new JTextField(10);
-	JLabel Role = new JLabel("Role");
-	JTextField Rl = new JTextField(10);
-	JLabel Affil = new JLabel("Affilliation");
-	JTextField Aff = new JTextField(10);
-	
-	//random
-	JLabel ch = new JLabel("Number of activities:");
-	
 	JButton insert = new JButton("Insert");
-
-	
 	JButton addEvent = new JButton("Add Event");
 	
 	JFrame frame = new JFrame();
@@ -76,10 +48,7 @@ public class A214273122_Q1 implements ActionListener {
 		
 		frame.setSize(500, 650);
 		frame.setResizable(false);
-		//frame.add(panel, BorderLayout.CENTER);
 		frame.add(panel);
-		//panel.setLayout(new FlowLayout());
-		//panel.setLayout(new GridLayout (0, 1));
 		panel.setBackground(Color.LIGHT_GRAY);
 		panel.setBounds(100, 100, 200, 200);
 		frame.setTitle("214273122_Q1");
