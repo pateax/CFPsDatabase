@@ -1,13 +1,9 @@
 //Author: Axita Patel
 
 import javax.swing.*;
-
 import javax.swing.table.JTableHeader;
-
 import java.awt.*;
 import java.awt.event.*;
-
-
 
 public class A214273122_Q2 implements ActionListener {
 
@@ -17,7 +13,6 @@ public class A214273122_Q2 implements ActionListener {
 		Panel panel = new Panel();
 		frame.add(panel);
 		panel.setLayout(new FlowLayout());
-	//	panel.setBackground(Color.LIGHT_GRAY);
 		panel.setBounds(100, 100, 100, 100);
 		frame.setTitle("Q2");
 		
@@ -33,8 +28,6 @@ public class A214273122_Q2 implements ActionListener {
 		header.setFont(new Font("Helvetica", Font.BOLD, 13));
 		
 		panel.add(scrollPane);
-		//table1.setFillsViewportHeight(true);
-		
 		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setVisible(true);
