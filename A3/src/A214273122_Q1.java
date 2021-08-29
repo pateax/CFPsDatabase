@@ -74,7 +74,7 @@ public class A214273122_Q1 implements ActionListener {
 	
 	public A214273122_Q1() {
 		
-		frame.setSize(500, 800);
+		frame.setSize(500, 650);
 		frame.setResizable(false);
 		//frame.add(panel, BorderLayout.CENTER);
 		frame.add(panel);
@@ -89,28 +89,6 @@ public class A214273122_Q1 implements ActionListener {
 		
 		
 		insert.setPreferredSize(new Dimension(200, 33));
-	
-		
-		/*
-		Integer[] nu = {1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 10};
-		JComboBox<Integer> n = new JComboBox<Integer>(nu);
-		n.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
-				JComboBox<Integer> in = (JComboBox<Integer>) e.getSource();
-				Integer j = (Integer) in.getSelectedItem();
-				
-				
-				panel.add(Activity);
-				panel.add(AN);
-				panel.add(ADate);
-				panel.add(AD);		
-			
-			}	
-			
-		});  */
 		
 		
 		addEvent.addActionListener(new ActionListener() {
@@ -209,10 +187,7 @@ public class A214273122_Q1 implements ActionListener {
 					panel.add(insert);
 					
 					frame.setVisible(true);	
-				
 				}
-				
-			
 			}
 			
 		});
@@ -225,7 +200,6 @@ public class A214273122_Q1 implements ActionListener {
 				
 				JLabel done = new JLabel("Insert successful!");
 				panel.add(done);
-				
 			}
 			
 		}); 
@@ -255,36 +229,9 @@ public class A214273122_Q1 implements ActionListener {
 		AN.setBorder(border);
 		ADate.setBorder(border);
 		AD.setBorder(border);
-		
-		//panel.add(ch);
-		//panel.add(n);
-		
-		
-		/*
-		JButton act = new JButton("Add Activity");
-		act.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
-				
-				panel.add(Activity);
-				panel.add(AN);
-				panel.add(ADate);
-				panel.add(AD);
-			}
-			
-		});
-		panel.add(act);
 	
-	*/
-	
-		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		//frame.pack();
 		frame.setVisible(true);
-		
-		
 		
 	}
 	
@@ -292,15 +239,11 @@ public class A214273122_Q1 implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
 		
-
-		
 	}
 	
 	
 	public static void main (String[] args) {
 		new A214273122_Q1();
-		
-		
 		
 	}
 	
